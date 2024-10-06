@@ -7,11 +7,14 @@ function LogoAnName() {
     <div className="flex gap-2 items-center sm:justify-start justify-center">
       <span className="text-2xl font-light flex items-center gap-2 ">
         {/* The Icon */}
-        <div
+        {/* <div
           style={{ backgroundColor: defaultColor.default }}
           className=" p-2 rounded-md"
         >
           <AppIcon color="#ffffff" height="34" width="34" />
+        </div> */}
+        <div className="logo">
+          <img src="./habit-tracker-logo.png" alt="" />
         </div>
         {/* The Name of the app */}
         <span
